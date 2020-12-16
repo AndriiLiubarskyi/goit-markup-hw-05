@@ -599,7 +599,7 @@ address {
   padding: 6px 22px 6px 22px;
   letter-spacing: 0.03em;
   cursor: pointer;
-  transition-property: color, backgrond-color, box-shadow;
+  transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -836,4 +836,7 @@ footer .cont-footer {
   padding: 0;
   background-position: 50%;
   background-repeat: no-repeat;
+}
+textarea {
+  resize: none;
 }
